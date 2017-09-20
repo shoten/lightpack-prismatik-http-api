@@ -23,7 +23,7 @@ class myPack:
             'bottom-left',
         ]
 
-        self.lp = lightpack.Lightpack(host, port led_map=led_map, api_key=api_key )
+        self.lp = lightpack.Lightpack(host, port, led_map=led_map, api_key=api_key )
 
         self.retry_counter = 0
         self.retry_limit = 120
