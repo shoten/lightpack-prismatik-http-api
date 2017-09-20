@@ -6,9 +6,9 @@ class myPack:
 
     def __init__(self):
         # Configuration
-        # host = 'localhost' # (default)
-        # port = 3636 # (default)
-        # api_key = '{YOUR-API-KEY-IF-USED}' # not used by default
+        host = 'localhost' # (default)
+        port = 3636 # (default)
+        api_key = '{YOUR-API-KEY-IF-USED}' # not used by default
 
         led_map = [ # Optional aliases for the LEDs in order
             'bottom-right',
